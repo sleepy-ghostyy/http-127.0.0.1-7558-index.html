@@ -12,7 +12,10 @@ body {
 
 button,
 a,
-img {
+img,
+input,
+textarea,
+select {
     cursor: url("./ghosticursor.png") 2 2, pointer;
 }
 
@@ -29,11 +32,11 @@ img {
     background-size: 100% 100%;
     background-position: top center;
     background-repeat: no-repeat;
-    height: 450px;
-    width: 1180px;
-    max-width: 90%;
-    padding-bottom: -6px;
-    margin-bottom: -6px;
+    height: 32vw;
+    width: 76.5vw;
+    max-width: 84vw;
+    padding-bottom: -1vw;
+    margin-bottom: -1vw;
 }
 
 .mirrortop img {
@@ -85,28 +88,28 @@ img {
     background-image: url('mirror.png');
     background-size: 100% 100%;
     background-repeat: repeat-y;
-    width: 1300px;
-    max-width: 90%;
+    width: 76.5vw;
+    max-width: 84vw;
     transition: transform 0,2s;
     text-align: center;
     overflow-y: auto;
     display: inline-block;
-    gap: 20px;
+    gap: 20vw;
     flex-wrap: wrap;
-    padding-bottom: -5px;
-    margin-bottom: -5px;
+    padding-bottom: -1vw;
+    margin-bottom: -1vw;
 }
 
 .mirror img {
-    width: 100px;
+    width: 7vw;
     height: auto;
 }
 
 .mirror p {
     color: ghostwhite;
     font-size: 1.2rem;
-    size-adjust: 40px;
-    max-width: 800px;
+    size-adjust: 3vw;
+    max-width: 60vw;
     margin: 0 auto 20px auto;
 }
 
@@ -116,18 +119,24 @@ img {
     background-size: 100% 100%;
     background-position: bottom center;
     background-repeat: no-repeat;
-    height: 450px;
-    width: 1180px;
-    max-width: 90%;
-    padding-top: -5px;
-    margin-top: -5px;
+    height: 32vw;
+    width: 76.5vw;
+    max-width: 84vw;
+    padding-top: -1vw;
+    margin-top: -1vw;
 }
 
-.navi img {
-    width: 780px;
+.navi {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 51.5vw;
     height: auto;
     position: absolute;
-    left: 20%;
+    left: 12.5vw;
 }
 
 .stars {
@@ -138,20 +147,20 @@ img {
 
 .starl {
     position: absolute;
-    bottom: 1%;
-    left: 7%;
-    width: 110px;
+    bottom: 1vw;
+    left: 6vw;
+    width: 7vw;
     height: auto;
-    transform: scale(-1) translateY(-40%);
+    transform: scale(-1) translateY(-4.5vw);
 }
 
 .starr {
     position: absolute;
-    bottom: 1%;
-    left: 83%;
-    width: 110px;
+    bottom: 1vw;
+    left: 65vw;
+    width: 7vw;
     height: auto;
-    transform: scale(-1) translateY(-40%);
+    transform: scale(-1) translateY(-4.5vw);
 }
 
 .icons {
@@ -217,8 +226,8 @@ img {
 
 #ghosty {
     position: fixed;
-    top: 60%;
-    left: 83%;
+    top: 29vw;
+    left: 83vw;
 
     background: transparent;
     border: none;
@@ -232,15 +241,15 @@ img {
 
     z-index: 9999;
 
-    display: none; /* hidden by default */
+    display: none;
 }
 
 #ghosty.show {
-    display: block; /* ONLY show when class exists */
+    display: block;
 }
 
 #ghosty img {
     display: block;
-    width: 300px;
+    width: 19vw;
     height: auto;
 }
