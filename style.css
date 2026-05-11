@@ -128,95 +128,100 @@ select {
 
 .navi {
     position: relative;
+    width: 51.5vw;
+    margin: 0 auto;
 }
 
 .nav {
-    width: 51.5vw;
+    width: 100%;
     height: auto;
     position: absolute;
-    left: 12.5vw;
 }
 
 .stars {
     position: relative;
+    width: 7vw;
+    margin: 0 auto;
 }
 
 .starl {
     position: absolute;
-    bottom: 1vw;
-    left: 6vw;
-    width: 7vw;
+    bottom: 1%;
+    right: 400%;
+    width: 100%;
     height: auto;
-    transform: scale(-1) translateY(-4.5vw);
+    transform: scale(-1) translateY(-40%);
 }
 
 .starr {
     position: absolute;
-    bottom: 1vw;
-    left: 65vw;
-    width: 7vw;
+    bottom: 1%;
+    left: 400%;
+    width: 100%;
     height: auto;
-    transform: scale(-1) translateY(-4.5vw);
+    transform: scale(-1) translateY(-40%);
 }
 
 .icons {
     position: relative;
-    height: 26.5vw;
+    width: 51.5vw;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
 }
 
 .fh {
     position: absolute;
-    top: 5.3vw;
-    left: 16.5vw;
-    width: 8.5vw;
+    top: 20%;
+    left: 8%;
+    width: 16%;
     height: auto;
 }
 
 .stn {
     position: absolute;
-    top: 5.3vw;
-    left: 25.25vw;
-    width: 8.5vw;
+    top: 20%;
+    left: 25%;
+    width: 16%;
     height: auto;
 }
 
 .hush {
     position: absolute;
-    top: 5.3vw;
-    left: 34vw;
-    width: 8.5vw;
+    top: 20%;
+    left: 42%;
+    width: 16%;
     height: auto;
 }
 
 .sclt {
     position: absolute;
-    top: 5.3vw;
-    left: 42.75vw;
-    width: 8.5vw;
+    top: 20%;
+    left: 59%;
+    width: 16%;
     height: auto;
 }
 
 .fld {
     position: absolute;
-    top: 5.3vw;
-    left: 51.5vw;
-    width: 8.5vw;
+    top: 20%;
+    left: 76%;
+    width: 16%;
     height: auto;
 }
 
 .etc {
     position: absolute;
-    top: 8.75vw;
-    left: 29.625vw;
-    width: 8.5vw;
+    top: 30%;
+    left: 33.5%;
+    width: 16%;
     height: auto;
 }
 
 .arts {
     position: absolute;
-    top: 8.75vw;
-    left: 38.375vw;
-    width: 8.5vw;
+    top: 30%;
+    left: 50.5%;
+    width: 16%;
     height: auto;
 }
 
