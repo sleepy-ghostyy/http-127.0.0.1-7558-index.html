@@ -17,9 +17,9 @@ img {
 }
 
 .container {
-    width: 1300px;
-    max-width: 90%;
-    margin: 50px auto;
+    width: 1200vw;
+    max-width: 85vw;
+    margin: 3vw auto;
     background: transparent;
 
 }
