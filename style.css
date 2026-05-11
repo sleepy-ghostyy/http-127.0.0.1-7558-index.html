@@ -1,0 +1,246 @@
+body {
+    cursor: url("./ghosticursor.png") 2 2, auto;
+    font-family: 'Luminary Serif', fantasy;
+    background: linear-gradient(rgb(36, 39, 80), rgb(38, 12, 59));
+    margin: 0;
+    padding: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button,
+a,
+img {
+    cursor: url("./ghosticursor.png") 2 2, pointer;
+}
+
+.container {
+    width: 1300px;
+    max-width: 90%;
+    margin: 50px auto;
+    background: transparent;
+
+}
+
+.mirrortop {
+    background: url('mirrortop.png');
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1180px;
+    max-width: 90%;
+    padding-bottom: -6px;
+    margin-bottom: -6px;
+}
+
+.mirrortop img {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+}
+
+.eyesl img {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+}
+
+.eyesr img {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+}
+
+.sparkl img {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+}
+
+.sparkr img {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+}
+
+.mirror {
+    background-image: url('mirror.png');
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    width: 1300px;
+    max-width: 90%;
+    transition: transform 0,2s;
+    text-align: center;
+    overflow-y: auto;
+    display: inline-block;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: -5px;
+    margin-bottom: -5px;
+}
+
+.mirror img {
+    width: 100px;
+    height: auto;
+}
+
+.mirror p {
+    color: ghostwhite;
+    font-size: 1.2rem;
+    size-adjust: 40px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+
+.mirrorbottom {
+    background: url('mirrorbottom.png');
+    background-size: 100% 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1180px;
+    max-width: 90%;
+    padding-top: -5px;
+    margin-top: -5px;
+}
+
+.navi img {
+    width: 780px;
+    height: auto;
+    position: absolute;
+    left: 20%;
+}
+
+.stars {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.starl {
+    position: absolute;
+    bottom: 1%;
+    left: 7%;
+    width: 110px;
+    height: auto;
+    transform: scale(-1) translateY(-40%);
+}
+
+.starr {
+    position: absolute;
+    bottom: 1%;
+    left: 83%;
+    width: 110px;
+    height: auto;
+    transform: scale(-1) translateY(-40%);
+}
+
+.icons {
+    position: relative;
+    height: 400px;
+}
+
+.fh {
+    position: absolute;
+    top: 20%;
+    left: 21.5%;
+    width: 130px;
+    height: auto;
+}
+
+.stn {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    width: 130px;
+    height: auto;
+}
+
+.hush {
+    position: absolute;
+    top: 20%;
+    left: 44.5%;
+    width: 130px;
+    height: auto;
+}
+
+.sclt {
+    position: absolute;
+    top: 20%;
+    left: 56%;
+    width: 130px;
+    height: auto;
+}
+
+.fld {
+    position: absolute;
+    top: 20%;
+    left: 67.5%;
+    width: 130px;
+    height: auto;
+}
+
+.etc {
+    position: absolute;
+    top: 33%;
+    left: 38.25%;
+    width: 130px;
+    height: auto;
+}
+
+.arts {
+    position: absolute;
+    top: 33%;
+    left: 49.75%;
+    width: 130px;
+    height: auto;
+}
+
+#ghosty {
+    position: fixed;
+    top: 60%;
+    left: 83%;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    display: none; /* hidden by default */
+}
+
+#ghosty.show {
+    display: block; /* ONLY show when class exists */
+}
+
+#ghosty img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
