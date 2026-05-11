@@ -128,9 +128,22 @@ select {
     margin-top: -1vw;
 }
 
+.mirrorbottom {
+    background: url('mirrorbottom.png');
+    background-size: 100% 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 32vw;
+    width: 76.5vw;
+    max-width: 84vw;
+    padding-top: -1vw;
+    margin-top: -1vw;
+}
+
 .navi {
     position: relative;
-    width: 51.5vw;
+    width: 67%;
     margin: 0 auto;
 }
 
@@ -142,7 +155,7 @@ select {
 
 .stars {
     position: relative;
-    width: 7vw;
+    width: 9%;
     margin: 0 auto;
 }
 
@@ -166,7 +179,7 @@ select {
 
 .icons {
     position: relative;
-    width: 51.5vw;
+    width: 67%;
     margin: 0 auto;
     aspect-ratio: 16 / 9;
 }
