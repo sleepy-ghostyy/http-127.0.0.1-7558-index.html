@@ -128,8 +128,6 @@ select {
 
 .navi {
     position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav {
@@ -141,8 +139,6 @@ select {
 
 .stars {
     position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .starl {
