@@ -165,62 +165,62 @@ select {
 
 .icons {
     position: relative;
-    height: 400px;
+    height: 26.5vw;
 }
 
 .fh {
     position: absolute;
-    top: 20%;
-    left: 21.5%;
-    width: 130px;
+    top: 5.3vw;
+    left: 16.5vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .stn {
     position: absolute;
-    top: 20%;
-    left: 33%;
-    width: 130px;
+    top: 5.3vw;
+    left: 25.25vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .hush {
     position: absolute;
-    top: 20%;
-    left: 44.5%;
-    width: 130px;
+    top: 5.3vw;
+    left: 34vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .sclt {
     position: absolute;
-    top: 20%;
-    left: 56%;
-    width: 130px;
+    top: 5.3vw;
+    left: 42.75vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .fld {
     position: absolute;
-    top: 20%;
-    left: 67.5%;
-    width: 130px;
+    top: 5.3vw;
+    left: 51.5vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .etc {
     position: absolute;
-    top: 33%;
-    left: 38.25%;
-    width: 130px;
+    top: 8.75vw;
+    left: 29.625vw;
+    width: 8.5vw;
     height: auto;
 }
 
 .arts {
     position: absolute;
-    top: 33%;
-    left: 49.75%;
-    width: 130px;
+    top: 8.75vw;
+    left: 38.375vw;
+    width: 8.5vw;
     height: auto;
 }
 
