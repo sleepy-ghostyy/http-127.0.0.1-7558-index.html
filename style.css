@@ -38,46 +38,46 @@ img {
 
 .mirrortop img {
     position: absolute;
-    top: 50%;
-    left: 46%;
+    top: 24vw;
+    left: 45vw;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 16vw;
     height: auto;
 }
 
 .eyesl img {
     position: absolute;
-    top: 50%;
-    left: 28%;
+    top: 24vw;
+    left: 27vw;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 19vw;
     height: auto;
 }
 
 .eyesr img {
     position: absolute;
-    top: 50%;
-    left: 64%;
+    top: 24vw;
+    left: 63vw;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 19vw;
     height: auto;
 }
 
 .sparkl img {
     position: absolute;
-    top: 70%;
-    left: 75%;
+    top: 33vw;
+    left: 75vw;
     transform: translate(-50%, -50%);
-    width: 100px;
+    width: 7vw;
     height: auto;
 }
 
 .sparkr img {
     position: absolute;
-    top: 70%;
-    left: 15%;
+    top: 33vw;
+    left: 15vw;
     transform: translate(-50%, -50%);
-    width: 100px;
+    width: 7vw;
     height: auto;
 }
 
